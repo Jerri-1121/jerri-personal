@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+mat-card {
+    img{
+        width: 100%; // Add this to make the image responsive
+        height: auto; // Add this to maintain the aspect ratio
+        object-fit: cover;
+    }
+    @media screen and  (max-width:500px) {
+        max-width: 90%;
+    }
+
+}
