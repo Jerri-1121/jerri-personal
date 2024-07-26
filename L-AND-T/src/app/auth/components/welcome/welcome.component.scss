@@ -13,5 +13,11 @@ mat-card {
     @media screen and  (max-width:500px) {
         max-width: 90%;
     }
+    .note {
+        display:flex;
+        justify-content: center;
+        //color: teal;
+        margin: 10px;
+    }
 
 }
